@@ -1,0 +1,308 @@
+body {
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0px;
+}
+
+body header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 124px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 4px 4px rgba(12, 47, 136, 0.15);
+          box-shadow: 0px 4px 4px rgba(12, 47, 136, 0.15);
+}
+
+body header .header-icon {
+  height: 50px;
+}
+
+body header .header-list {
+  list-style-type: none;
+  padding-left: 0px;
+  margin: 0px 0px 0px 30px;
+}
+
+body header .header-list li {
+  margin: 0px 30px 0px 30px;
+  display: inline-block;
+}
+
+body header .header-list li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #3F4449;
+}
+
+body header .header-list li a:hover {
+  text-decoration: underline;
+}
+
+body header .header-search {
+  margin-left: 30px;
+  border: 1px solid #3F4449;
+  width: 431px;
+  height: 48px;
+  border-radius: 2px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body header .header-search .search-input {
+  border: none;
+  padding: 10px;
+  font-size: 18pt;
+  width: 363px;
+}
+
+body header .header-search .search-btn {
+  width: 46px;
+  border: none;
+  border-radius: 0px 1px 1px 0px;
+  background: #3F97FB;
+  cursor: pointer;
+}
+
+body header .header-search .search-btn:hover {
+  -webkit-box-shadow: 0px 0px 5px 3px #3f97fb;
+          box-shadow: 0px 0px 5px 3px #3f97fb;
+}
+
+body header .reg {
+  margin-left: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 94px;
+}
+
+body header .reg .reg-icon {
+  width: 25px;
+  height: 25px;
+}
+
+body header .reg .reg-btn {
+  text-decoration: none;
+  color: #3F4449;
+  font-size: 20px;
+}
+
+body header .reg .reg-btn:hover {
+  text-decoration: underline;
+}
+
+body main {
+  height: 619px;
+  background: url("../img/Slide 1.png") center no-repeat;
+  background-size: cover;
+}
+
+body main .cont {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .cont .text {
+  height: 55%;
+  width: 100%;
+}
+
+body main .cont .text .text-h2 {
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  letter-spacing: 3px;
+  width: 507px;
+  margin: 100px 0px 0px 258px;
+}
+
+body main .cont .info {
+  height: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body main .cont .info .wrap {
+  width: 350px;
+  height: 198px;
+  margin: 0px 15px;
+  background: -webkit-gradient(linear, left bottom, left top, from(#FFFFFF), to(#FFFFFF)), #FFFFFF;
+  background: linear-gradient(0deg, #FFFFFF, #FFFFFF), #FFFFFF;
+}
+
+body main .cont .info .wrap .wrap-h5 {
+  margin: 28px 0px 0px 0px;
+  text-align: center;
+  color: #0158BA;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+body main .cont .info .wrap .wrap-p {
+  margin: 11px 34px;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body main .cont .info .wrap .wrap-a {
+  margin: 0px 0px 0px 34px;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 24px;
+  color: #3F97FB;
+}
+
+body main .cont .info .wrap .wrap-a .a_arrow {
+  position: relative;
+  left: 5px;
+  -webkit-transition: .3s all 0s;
+  transition: .3s all 0s;
+}
+
+body main .cont .info .wrap .wrap-a:hover {
+  text-decoration: underline;
+}
+
+body main .cont .info .wrap .wrap-a:hover .a_arrow {
+  left: 15px;
+}
+
+body main .projects {
+  background: #F3FAFF;
+  height: 731px;
+  padding-top: 69px;
+}
+
+body main .projects h2 {
+  margin: 0px 0px 52px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 24px;
+  color: #0158BA;
+}
+
+body main .projects .slider {
+  margin: 52px 331px 0px;
+}
+
+body main .projects .slider .slick-arrow {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  border: 2px solid #3F97FB;
+  border-radius: 50%;
+}
+
+body main .projects .slider .slick-arrow:hover {
+  -webkit-box-shadow: 0px 0px 15px 0px #3f97fb;
+          box-shadow: 0px 0px 15px 0px #3f97fb;
+}
+
+body main .projects .slider .slick-prev::before, body main .projects .slider .slick-next::before {
+  content: "";
+}
+
+body main .projects .slider .slick-prev {
+  background: url("../img/Chevron left.png") center no-repeat;
+  left: -80px;
+}
+
+body main .projects .slider .slick-next {
+  background: url("../img/Chevron Right.png") center no-repeat;
+  right: -80px;
+}
+
+body main .projects .slider .slick-dots {
+  bottom: -63px;
+}
+
+body main .projects .slider .slick-dots li button::before {
+  font-size: 16px;
+  color: #3F97FB;
+}
+
+body main .projects .slider .slider_item {
+  width: 605px;
+  height: 548px;
+  margin: 0px 15px;
+  background: #FFFFFF;
+}
+
+body main .projects .slider .slider_item .item-img {
+  width: 605px;
+  height: 370px;
+}
+
+body main .projects .slider .slider_item .item-h4 {
+  color: #0158BA;
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 38px;
+  margin: 19px 33px 6px;
+}
+
+body main .projects .slider .slider_item .item-p {
+  font-size: 18px;
+  line-height: 150%;
+  color: #364D78;
+  margin: 0px 32px;
+}
+
+body main .projects .slider .slider_item .item-a {
+  font-size: 18px;
+  line-height: 150%;
+  color: #3F97FB;
+  margin: 7px 33px 27px;
+  display: block;
+  text-decoration: none;
+}
+
+body main .projects .slider .slider_item .item-a .arrow {
+  position: relative;
+  left: 5px;
+  -webkit-transition: .3s all 0s;
+  transition: .3s all 0s;
+}
+
+body main .projects .slider .slider_item .item-a:hover {
+  text-decoration: underline;
+}
+
+body main .projects .slider .slider_item .item-a:hover .arrow {
+  left: 15px;
+}

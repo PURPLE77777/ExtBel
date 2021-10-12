@@ -15,21 +15,66 @@
 </head>
 <body>
     <header>
-        <a class="header-icon" href="#"><img class="header-icon" src="img/Logo.png"></a>
-        <ul class="header-list">
-            <li><a href="#">Main</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">About us</a></li>
-        </ul>
+        <input id="burger-menu">
+        <label class="burger-menu" for="burger-menu">
+            <div class="bg-menu">
+                <div class="burger-menu_div"></div>
+                <div class="burger-menu_div"></div>
+                <div class="burger-menu_div"></div>
+            </div>
+        </label>
+        <a class="header-icon" href="#"><img class="header-icon" src="img/Logo.svg"></a>
+        <div class="header-list">
+            <div class="head-menu">
+                <img class="head-menu_icon" src="img/Logo.svg">
+                <input type="checkbox" id="close-menu">
+                <label class="close-menu">
+                    <div class="close-menu-1"></div>
+                    <div class="close-menu-2"></div>
+                </label>
+            </div>
+            <ul class="list">
+                <li><a href="#">Main</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">About us</a></li>
+            </ul>
+        </div>
         <div class="header-search">
             <input class="search-input">
-            <button class="search-btn"><img src="img/Vector.png"></button>
+            <button class="search-btn"><img src="img/Vector.svg"></button>
         </div>
         <div class="reg">
-            <img class="reg-icon" src="img/User icon.png">
-            <a class="reg-btn" href="#">Log in</a>
+            <input type="checkbox" id="login">
+            <label class="reg-btn" for="login">
+                <div class="btn-search"></div>
+                <img class="reg-icon" src="img/User icon.svg">
+                <span class="reg-text">Log in</span>
+                <div class="modale-bg">
+                    <div class="login-window">
+                        <input id="close">
+                        <label class="btn-close" for="close">
+                            <div class="label-close-1"></div>
+                            <div class="label-close-2"></div>
+                        </label>
+                        <div class="wind-form">
+                            <h4 class="wind-form_h4">Log in</h4>
+                            <form class="reg-form">
+                                <label class="name">Name*<br>
+                                    <input type="text" class="input-name" name="name" required>
+                                </label>
+                                <label class="password">Password*<br>
+                                    <input type="password" class="input-pass" name="password" required>
+                                </label>
+                                <a class="forgot" href="#">I forgot the password</a>
+                                <button type="submit" class="btn-login">Log in</button>
+                            </form>
+                            <a class="sign-link" href="#">Sign in</a>
+                        </div>
+                    </div>
+                </div>
+            </label>
         </div>
     </header>
     <main>
@@ -98,7 +143,22 @@
         </div>
     </main>
     <footer>
-        
+        <div class="sections">
+            <ul class="sections-list">
+                <li class="sections-list_item"><a class="item-link" href="#">About us</a></li>
+                <li class="sections-list_item"><a class="item-link" href="#">Services</a></li>
+                <li class="sections-list_item"><a class="item-link" href="#">Projects</a></li>
+                <li class="sections-list_item"><a class="item-link" href="#">Gallery</a></li>
+                <li class="sections-list_item"><a class="item-link" href="#">Contacts</a></li>
+            </ul>
+        </div>
+        <div class="social">
+            <ul class="social-list">
+                <li class="social-list_item"><a class="soc-link" href="#"><img src="img/WhatsApp.png"></a></li>
+                <li class="social-list_item"><a class="soc-link" href="#"><img src="img/Slack.png"></a></li>
+                <li class="social-list_item"><a class="soc-link" href="#"><img src="img/Instagram.png"></a></li>
+            </ul>
+        </div>
     </footer>
 </body>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>

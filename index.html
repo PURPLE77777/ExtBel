@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ExtBel</title>
-    <link rel="icon" href="img/Logo.png">
+    <link rel="icon" href="img/Logo.svg">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="src/slick/slick.css">
     <link rel="stylesheet" href="src/slick/slick-theme.css">
@@ -42,13 +42,23 @@
             </ul>
         </div>
         <div class="header-search">
-            <input class="search-input">
-            <button class="search-btn"><img src="img/Vector.svg"></button>
+            <div class="head-search">
+                <img class="head-search_icon" src="img/Logo.svg">
+                <input type="checkbox" id="close-search">
+                <label class="close-search">
+                    <div class="close-search-1"></div>
+                    <div class="close-search-2"></div>
+                </label>
+            </div>
+            <div class="searcher">
+                <input class="search-input">
+                <button class="search-btn"><img src="img/Vector.svg"></button>
+            </div>
         </div>
         <div class="reg">
             <input type="checkbox" id="login">
+            <div class="btn-search"></div>
             <label class="reg-btn" for="login">
-                <div class="btn-search"></div>
                 <img class="reg-icon" src="img/User icon.svg">
                 <span class="reg-text">Log in</span>
                 <div class="modale-bg">
@@ -78,27 +88,29 @@
         </div>
     </header>
     <main>
-        <div class="cont">        
-            <div class="text">
-                <h2 class="text-h2">Software development and optimization</h2>
-            </div>
-            <div class="info">
-                <div class="wrap">
-                    <h5 class="wrap-h5">WE GIVE GUARANTEES</h5>
-                    <p class="wrap-p">We work only by agreement and we do not take payment for the work that has not yet been completed.</p>
-                    <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
+        <div class="cont">
+            <div class="bg">
+                <div class="text">
+                    <h2 class="text-h2">Software development and optimization</h2>
                 </div>
-                <div class="wrap">
-                    <h5 class="wrap-h5">WE SUPPORT THE PROJECT</h5>
-                    <p class="wrap-p">We know how to attract targeted traffic to a site and convert it into sales.</p>
-                    <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
+                <div class="info">
+                    <div class="wrap">
+                        <h5 class="wrap-h5">WE GIVE GUARANTEES</h5>
+                        <p class="wrap-p">We work only by agreement and we do not take payment for the work that has not yet been completed.</p>
+                        <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
+                    </div>
+                    <div class="wrap">
+                        <h5 class="wrap-h5">WE SUPPORT THE PROJECT</h5>
+                        <p class="wrap-p">We know how to attract targeted traffic to a site and convert it into sales.</p>
+                        <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
+                    </div>
+                    <div class="wrap">
+                        <h5 class="wrap-h5">WE ARE ALWAYS IN TOUCH</h5>
+                        <p class="wrap-p">We are always on the line 24/7. Seriously. Even if you just want to talk.</p>
+                        <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
+                    </div>
                 </div>
-                <div class="wrap">
-                    <h5 class="wrap-h5">WE ARE ALWAYS IN TOUCH</h5>
-                    <p class="wrap-p">We are always on the line 24/7. Seriously. Even if you just want to talk.</p>
-                    <a class="wrap-a" href="#">Learn more<span class="a_arrow">>></span></a>
-                </div>
-            </div>
+            </div>        
         </div>
         <div class="projects">
             <h2>Our projects</h2>

@@ -83,6 +83,12 @@ body{
                     .close-menu-2{
                         transform: rotate(-45deg);
                     }
+                    @media (max-width: 320px){
+                        .close-menu-1, .close-menu-2{
+                            width: 20px;
+                            height: 3px;
+                        }
+                    }
                 }
                 .close-menu:hover{
                     .close-menu-1, .close-menu-2{
@@ -90,10 +96,13 @@ body{
                     }
                 }
                 @media (max-width: 320px){
+                    .close-menu{
+                        width: 20px;
+                    }
                     .head-menu_icon{
                         width: 68px;
                         height: 32px;
-                        margin: 0px auto;
+                        margin-right: 60px;
                     }
                 }
             }
@@ -174,14 +183,29 @@ body{
             @media (max-width: 320px){
                 .head-menu{
                     padding-right: 0px;
-                    margin: 19px 0px 33px;
-                }
-                .close-menu{
-                    display: none;
+                    margin: 19px 15px 33px;
+                    justify-content: flex-end;
                 }
                 .list{
                     margin: 0px 0px 0px 39px;
                 }
+            }
+        }
+        @keyframes showHeaderList{
+            from{
+                left: -590px;
+            }
+            to{
+                left: 0px;
+            }
+        }
+        @keyframes closeHeaderList{
+            from{
+                left: 0px;
+            }
+            to{
+                left: -590px;
+                display: none
             }
         }
         .header-search{
@@ -369,6 +393,23 @@ body{
                 }
             }
         }
+        @keyframes showHeaderSearch{
+            from{
+                left: -100%;
+            }
+            to{
+                left: 0%;
+            }
+        }
+        @keyframes closeHeaderSearch{
+            from{
+                left: 0%;
+            }
+            to{
+                left: -100%;
+                display: none;
+            }
+        }
         .reg{
             margin-left: 60px;
             #login{
@@ -544,6 +585,23 @@ body{
                 width: 262px;
                 left: -262px;
             }
+            @keyframes showHeaderList{
+                from{
+                    left: -262px;
+                }
+                to{
+                    left: 0px;
+                }
+            }
+            @keyframes closeHeaderList{
+                from{
+                    left: 0px;
+                }
+                to{
+                    left: -262px;
+                    display: none
+                }
+            }
         }
     }
     main{
@@ -565,6 +623,7 @@ body{
                 background: #FFFFFF;
                 transition: .3s all linear;
                 z-index: inherit;
+                opacity: 0;
                 #close{
                     display: none;
                 }
@@ -892,6 +951,22 @@ body{
                     }
                 }
             }
+            @keyframes showLoginWindow{
+                from{
+                    opacity: 0;
+                }
+                to{
+                    opacity: 1;
+                }
+            }
+            @keyframes closeLoginWindow{
+                from{
+                    opacity: 0;
+                }
+                to{
+                    opacity: 0;
+                }
+            }
             @media (max-width: 1600px){
                 .login-window{
                     margin: 223px auto 0px;
@@ -928,6 +1003,28 @@ body{
                     height: 309px;
                     padding: 5px 0px;
                 }
+            }
+        }
+        @keyframes showModaleBg{
+            from{
+                display: block;
+                opacity: 0;
+                z-index: -1;
+            }
+            to{
+                opacity: 1;
+                z-index: 50;
+            }
+        }
+        @keyframes closeModaleBgMove{
+            from{
+                opacity: 1;
+                z-index: 50;
+            }
+            to{
+                opacity: 0;
+                z-index: -1;
+                display: none;
             }
         }
         .cont{

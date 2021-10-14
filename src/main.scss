@@ -2,7 +2,13 @@ body{
     font-family: 'Noto Sans', sans-serif;
     margin: 0px;
     overflow-y: scroll;
-    scrollbar-width: none;
+
+    //для липнущего футера
+    // min-height: 100vh;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: space-between;
+
     header{
         display: flex;
         flex-wrap: nowrap;
@@ -1198,7 +1204,7 @@ body{
                                 height: 58px;
                             }
                             .wrap-a{
-                                margin: 0px 0px 0px 18px;
+                                margin: 0px 0px 0px 24px;
                                 font-size: 12px;
                                 line-height: 19px;
                                 width: 83px;
@@ -1641,6 +1647,7 @@ body{
         text-align: center;
         padding: 42px 0px 0px;
         margin: 0px auto;
+        // flex-shrink: 0;
         .sections{
             .sections-list{
                 list-style-type: none;

@@ -2,7 +2,6 @@ body {
   font-family: 'Noto Sans', sans-serif;
   margin: 0px;
   overflow-y: scroll;
-  scrollbar-width: none;
 }
 
 body header {
@@ -1507,7 +1506,7 @@ body main .cont .bg .info .wrap .wrap-a:hover .a_arrow {
     height: 58px;
   }
   body main .cont .bg .info .wrap .wrap-a {
-    margin: 0px 0px 0px 18px;
+    margin: 0px 0px 0px 24px;
     font-size: 12px;
     line-height: 19px;
     width: 83px;

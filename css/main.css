@@ -671,6 +671,7 @@ body header .reg .reg-btn .reg-text:hover {
   }
   body header .header-icon {
     height: 28px;
+    margin-left: 8px;
   }
   body header .reg {
     margin-left: 30px;
@@ -714,6 +715,7 @@ body header .reg .reg-btn .reg-text:hover {
   body header .header-icon {
     width: 153px;
     height: 72px;
+    margin-left: 0px;
   }
   body header .reg {
     margin-left: 0px;
